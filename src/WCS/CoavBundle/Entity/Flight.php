@@ -43,7 +43,7 @@ class Flight
     /**
      * Get id
      *
-     * @return integer 
+     * @return integer
      */
     public function getId()
     {
@@ -66,7 +66,7 @@ class Flight
     /**
      * Get departure
      *
-     * @return string 
+     * @return string
      */
     public function getDeparture()
     {
@@ -89,7 +89,7 @@ class Flight
     /**
      * Get arrival
      *
-     * @return string 
+     * @return string
      */
     public function getArrival()
     {
@@ -112,7 +112,7 @@ class Flight
     /**
      * Get pilot
      *
-     * @return string 
+     * @return string
      */
     public function getPilot()
     {
@@ -135,7 +135,7 @@ class Flight
     /**
      * Get freeSeats
      *
-     * @return integer 
+     * @return integer
      */
     public function getFreeSeats()
     {
@@ -158,7 +158,7 @@ class Flight
     /**
      * Get takeofTime
      *
-     * @return \DateTime 
+     * @return \DateTime
      */
     public function getTakeofTime()
     {

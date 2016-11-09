@@ -57,7 +57,7 @@ class Terrain
     /**
      * Get id
      *
-     * @return integer 
+     * @return integer
      */
     public function getId()
     {
@@ -80,7 +80,7 @@ class Terrain
     /**
      * Get name
      *
-     * @return string 
+     * @return string
      */
     public function getName()
     {
@@ -103,7 +103,7 @@ class Terrain
     /**
      * Get icao
      *
-     * @return string 
+     * @return string
      */
     public function getIcao()
     {
@@ -126,7 +126,7 @@ class Terrain
     /**
      * Get latitude
      *
-     * @return float 
+     * @return float
      */
     public function getLatitude()
     {
@@ -149,7 +149,7 @@ class Terrain
     /**
      * Get longitude
      *
-     * @return float 
+     * @return float
      */
     public function getLongitude()
     {
@@ -172,7 +172,7 @@ class Terrain
     /**
      * Get city
      *
-     * @return string 
+     * @return string
      */
     public function getCity()
     {
@@ -195,7 +195,7 @@ class Terrain
     /**
      * Get country
      *
-     * @return string 
+     * @return string
      */
     public function getCountry()
     {
@@ -240,7 +240,7 @@ class Terrain
     /**
      * Get departures
      *
-     * @return \Doctrine\Common\Collections\Collection 
+     * @return \Doctrine\Common\Collections\Collection
      */
     public function getDepartures()
     {

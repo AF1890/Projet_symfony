@@ -39,6 +39,10 @@ class Flight
      */
     private $takeofTime;
 
+    /**
+     * @var string
+     */
+    private $plane;
 
     /**
      * Get id

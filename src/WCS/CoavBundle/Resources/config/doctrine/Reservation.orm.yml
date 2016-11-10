@@ -22,3 +22,8 @@ WCS\CoavBundle\Entity\Reservation:
         passengers:
             targetEntity: User
             mappedBy: reservation
+
+    manyToOne:
+        flight:
+            targetEntity: WCS\CoavBundle\Entity\Flight
+            inversedBy: flights

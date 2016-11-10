@@ -164,4 +164,50 @@ class PlaneModel
     {
         return $this->status;
     }
+    /**
+     * @var \Doctrine\Common\Collections\Collection
+     */
+    private $plane;
+
+    /**
+     * Constructor
+     */
+    public function __construct()
+    {
+        $this->plane = new \Doctrine\Common\Collections\ArrayCollection();
+    }
+
+    /**
+     * Add plane
+     *
+     * @param \WCS\CoavBundle\Entity\Flight $plane
+     *
+     * @return PlaneModel
+     */
+    public function addPlane(\WCS\CoavBundle\Entity\Flight $plane)
+    {
+        $this->plane[] = $plane;
+
+        return $this;
+    }
+
+    /**
+     * Remove plane
+     *
+     * @param \WCS\CoavBundle\Entity\Flight $plane
+     */
+    public function removePlane(\WCS\CoavBundle\Entity\Flight $plane)
+    {
+        $this->plane->removeElement($plane);
+    }
+
+    /**
+     * Get plane
+     *
+     * @return \Doctrine\Common\Collections\Collection
+     */
+    public function getPlane()
+    {
+        return $this->plane;
+    }
 }

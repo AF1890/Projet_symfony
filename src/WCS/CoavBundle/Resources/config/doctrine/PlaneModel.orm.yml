@@ -28,6 +28,6 @@ WCS\CoavBundle\Entity\PlaneModel:
     lifecycleCallbacks: {  }
 
     oneToMany:
-        plane:
+        planes:
             targetEntity: WCS\CoavBundle\Entity\Flight
             mappedBy: plane

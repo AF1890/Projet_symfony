@@ -30,6 +30,6 @@ WCS\CoavBundle\Entity\Flight:
             inversedBy: planes
 
     oneToMany:
-        plane:
-            targetEntity: WCS\CoavBundle\Entity\Rservation
+        planes:
+            targetEntity: WCS\CoavBundle\Entity\Reservation
             mappedBy: plane

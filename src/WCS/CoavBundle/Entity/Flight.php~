@@ -10,13 +10,6 @@ use Doctrine\ORM\Mapping as ORM;
 class Flight
 {
     /**
-     * @var \string
-     */
-    private $plane;
-
-    // YAML GENERATED CODE
-
-    /**
      * @var int
      */
     private $id;
@@ -46,6 +39,10 @@ class Flight
      */
     private $takeofTime;
 
+    /**
+     * @var string
+     */
+    private $plane;
 
     /**
      * Get id
@@ -171,5 +168,4 @@ class Flight
     {
         return $this->takeofTime;
     }
-
 }
